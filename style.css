@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #015c30;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Scada", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+  background-color: #bb0a21;
+  border-radius: 50%;
+}
+
+.main-wrap {
+  width: 800px;
+  position: absolute;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.disc-wrap {
+  width: 400px;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 75%;
+  bottom: 10%;
+}
+
+.disc-text {
+  margin: 20px;
+  color: yellow;
+  font-family: "Scada", sans-serif;
+  text-align: justify;
+}
+.work,
+.contact {
+  margin-top: -30px;
+}
+
+.about:after {
+  font-size: 120px;
+  font-weight: 600;
+  color: yellow;
+  font-family: "Scada", sans-serif;
+  content: "こんにちは ,";
+  letter-spacing: -8px;
+}
+
+.about:hover:after {
+  font-size: 150px;
+  color: #f4f4f9;
+  font-family: "Scada", sans-serif;
+  content: "About";
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-left: 40px;
+}
+
+.work::after {
+  font-size: 170px;
+  color: whitesmoke;
+  font-family: "Scada", sans-serif;
+  content: "I am";
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.work:hover::after {
+  font-size: 170px;
+  color: #bb0a21;
+  font-family: "Scada", sans-serif;
+  content: "Work";
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  margin-left: 40px;
+}
+
+.contact::after {
+  font-size: 170px;
+  color: whitesmoke;
+  font-family: "Scada", sans-serif;
+  content: "Nugi";
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact:hover::after {
+  font-size: 170px;
+  color: yellow;
+  font-family: "Scada", sans-serif;
+  content: "Contact";
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-left: 40px;
+}
